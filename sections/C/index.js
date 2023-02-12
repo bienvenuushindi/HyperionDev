@@ -3,6 +3,7 @@ exports.__esModule = true;
 exports.smallNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
 exports.specialTens = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 exports.largeNumbers = ['hundred', 'thousand', 'million', 'billion', 'trillion'];
+
 /**
  * The function isPositive() checks if the number is greater than 0
  * and returns true if it is. Otherwise, it throws an error.
@@ -14,7 +15,9 @@ function isPositive(number) {
         return true;
     throw new Error('Invalid input. Number should be greater or equal to 0');
 }
+
 exports.isPositive = isPositive;
+
 /**
  *  This function checks the length of the number
  *  and returns true if it is less than or equal to 15.
@@ -29,7 +32,9 @@ function isInValidRange(number) {
         return true;
     throw new Error('Invalid input. Number should not exceed 999,999,999,999,999');
 }
+
 exports.isInValidRange = isInValidRange;
+
 /**
  * The function groupInChunksOfThree() takes a number and
  * splits it into an array of chunks of three characters each.
@@ -44,9 +49,13 @@ function groupInChunksOfThree(number) {
     for (var i = 0; i < str.length; i += 3) {
         chunks.push(characters.slice(i, i + 3).reverse().join(''));
     }
-    return chunks.map(function (item) { return parseInt(item); });
+    return chunks.map(function (item) {
+        return parseInt(item);
+    });
 }
+
 exports.groupInChunksOfThree = groupInChunksOfThree;
+
 /**
  * The function handleTens() reads the number passed as an argument and returns the corresponding string.
  * @param number
@@ -57,15 +66,16 @@ function handleTens(number) {
     var quotient = number / 10;
     if (quotient < 2) {
         output += exports.smallNumbers[number];
-    }
-    else {
+    } else {
         output += exports.specialTens[Math.floor(number / 10) - 2];
         if (number % 10 !== 0)
             output += '-' + exports.smallNumbers[number % 10];
     }
     return output;
 }
+
 exports.handleTens = handleTens;
+
 /**
  * The function handleHundreds() reads the number passed as an argument and returns the corresponding string.
  * @param number
@@ -80,7 +90,9 @@ function handleHundreds(number) {
         output += ' and' + handleSmallNumber(number);
     return output;
 }
+
 exports.handleHundreds = handleHundreds;
+
 /**
  * The function handleSmallNumber() reads the number passed as an argument and returns the corresponding string.
  * @param number
@@ -98,7 +110,9 @@ function handleSmallNumber(number) {
         output += handleHundreds(number);
     return output;
 }
+
 exports.handleSmallNumber = handleSmallNumber;
+
 /**
  * The function numberToWords() reads the number passed as an argument
  * and returns the corresponding modified string..
@@ -129,7 +143,9 @@ function numberToWords(number) {
     }
     return (output + '.').trim();
 }
+
 exports.numberToWords = numberToWords;
+
 /***
  * The function capitalizeFirstLetter() capitalizes
  * the first letter of the string passed as an argument
@@ -140,7 +156,9 @@ exports.numberToWords = numberToWords;
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
+
 /**
  * The function sayNumber() reads the number passed as an argument and
  * returns the corresponding string with the first letter capitalized.
@@ -152,9 +170,9 @@ function sayNumber(number) {
         if (isInValidRange(number) && isPositive(number)) {
             return capitalizeFirstLetter(numberToWords(number));
         }
-    }
-    catch (err) {
+    } catch (err) {
         console.error(err);
     }
 }
+
 exports["default"] = sayNumber;
