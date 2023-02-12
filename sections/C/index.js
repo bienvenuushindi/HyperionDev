@@ -30,17 +30,6 @@ function isInValidRange(number) {
     throw new Error('Invalid input. Number should not exceed 999,999,999,999,999');
 }
 exports.isInValidRange = isInValidRange;
-// /**
-//  * The function isNumber checks if input is a number and return true if it is.
-//  * Otherwise, it throws an error
-//  * @param number
-//  * @returns {boolean}
-//  */
-// export function isNumber(number: number): boolean {
-//   if (typeof number === 'number') return true;
-//   throw new Error('Invalid input. Only numbers are allowed');
-//
-// }
 /**
  * The function groupInChunksOfThree() takes a number and
  * splits it into an array of chunks of three characters each.
