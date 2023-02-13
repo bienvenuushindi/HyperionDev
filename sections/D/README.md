@@ -1,6 +1,6 @@
 # Mentorship
 
-## Option 1: Student Progress
+## Challenge 1: Student Progress
 
 > As a mentor, you are invested in every student’s progress, as well as
 > responsible for ensuring high task completion and graduation rates for our
@@ -14,7 +14,7 @@
 > at-risk students do not fall behind and the 5 students that are ahead are
 > not negatively impacted.
 
-### OPTION 1: STRATEGY
+### Challenge 1: STRATEGY
 
 1.  #### Lagging students
     - Check in with the 5 lagging students: In order to understand how to best help the 5 lagging students get back on
@@ -39,7 +39,7 @@
     - Celebrate the ahead students: Celebrate the 5 ahead students by recognizing their accomplishments and providing
       them with additional challenges to ensure they stay on track.
 
-## Option 3: Student Feedback
+## Challenge 2: Student Feedback
 
 > Handling student concerns is an important part of the mentorship role.
 > In the following scenario, you have provided feedback to a student in a
@@ -51,7 +51,7 @@
 > student has also made a complaint on social media about the poor quality
 > of your review. Please explain how you would handle this situation.
 
-### OPTION 3: STRATEGY
+### Challenge 2 : STRATEGY
 
 1. First and foremost, I would maintain a professional and respectful demeanor when responding to the student. I would
    thank them for bringing their concerns to my attention and acknowledge that they are unhappy with the feedback that I
