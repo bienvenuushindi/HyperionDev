@@ -23,7 +23,7 @@
 
 - Typescript, Javascript, HTML, Tailwind css
 
-### Live Demo
+## Live Demo
 
 [Click here](https://hyperion-dev.vercel.app/)
 
