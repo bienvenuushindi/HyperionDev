@@ -5,5 +5,4 @@ You will be given a question that a hypothetical student asks and the student’
 submitted code. You will be required to answer the question and review their
 code’s correctness, efficiency, style and documentation.
 
-Based on the student’s submitted code found in `submission.rb` under student_question folder, I performed a detailed review found in `REVIEW.md` file
-A copy of a refactored file can be found in testing.py
+Based on the student’s submitted code found in `submission.rb` under student_question folder, I performed a detailed review found in `REVIEW.md` file.
