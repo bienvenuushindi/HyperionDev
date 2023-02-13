@@ -1,0 +1,37 @@
+{
+  "name": "number-to-words",
+  "version": "1.0.0",
+  "description": "function that takes a numeral and returns the standard way of reading a number, complete with punctuation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bienvenuushindi/HyperionDev.git"
+  },
+  "keywords": [
+    "algo",
+    "js",
+    "number",
+    "to",
+    "words"
+  ],
+  "author": "jeanbienvenusb@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bienvenuushindi/HyperionDev/issues"
+  },
+  "homepage": "https://github.com/bienvenuushindi/HyperionDev/tree/development/sections/C",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^29.4.0",
+    "babel-jest": "^29.4.2",
+    "jest": "^29.4.2",
+    "typescript": "^4.9.3",
+    "@types/babel__traverse": "7.18.2"
+  }
+}
