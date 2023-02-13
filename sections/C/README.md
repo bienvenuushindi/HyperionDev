@@ -1,3 +1,5 @@
+![hyperdev](https://user-images.githubusercontent.com/26736582/218435811-1354ec43-c24b-40cc-95a2-c04de3ff5fcc.png)
+
 # Code Challenge: Say the Number!
 
 > Create a function that takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) and returns the
