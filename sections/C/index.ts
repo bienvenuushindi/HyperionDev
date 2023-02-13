@@ -72,7 +72,7 @@ export function handleTens(number: number): string {
  * @returns {string}
  */
 export function handleHundreds(number: number): string {
-  let output = '';
+  let output: string = '';
   const leadingDigit = Math.floor(number / 100);
   output += (number > 100 ? smallNumbers[leadingDigit] + ' ' : '') + largeNumbers[0];
   number = number % 100;
