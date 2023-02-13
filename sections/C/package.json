@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/bienvenuushindi/HyperionDev/issues"
   },
-  "homepage": "https://github.com/bienvenuushindi/HyperionDev#readme",
+  "homepage": "https://github.com/bienvenuushindi/HyperionDev/tree/development/sections/C",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
