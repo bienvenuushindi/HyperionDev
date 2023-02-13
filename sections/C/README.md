@@ -19,7 +19,7 @@
 
 ## Built With
 
-- Typescript, Javascript
+- Typescript, Javascript, HTML, Tailwind css
 
 ## Getting Started
 
