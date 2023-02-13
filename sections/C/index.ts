@@ -29,19 +29,6 @@ export function isInValidRange(number: number): boolean {
 
 }
 
-
-// /**
-//  * The function isNumber checks if input is a number and return true if it is.
-//  * Otherwise, it throws an error
-//  * @param number
-//  * @returns {boolean}
-//  */
-// export function isNumber(number: number): boolean {
-//   if (typeof number === 'number') return true;
-//   throw new Error('Invalid input. Only numbers are allowed');
-//
-// }
-
 /**
  * The function groupInChunksOfThree() takes a number and
  * splits it into an array of chunks of three characters each.
@@ -134,7 +121,7 @@ export function numberToWords(number: number): string {
       }
     }
   }
-  return (output + '.').trim();
+  return (output).trim();
 }
 
 /***
@@ -155,12 +142,15 @@ export function capitalizeFirstLetter(string: string): string {
  * @param number
  * @returns {string}
  */
-export default function sayNumber(number: number): string {
+export function sayNumber(number: number): string {
+  if (isInValidRange(number) && isPositive(number)) return capitalizeFirstLetter(numberToWords(number) + '.');
+}
+
+export default function output(input: string): void {
+  const outputBox: any = document.getElementById('output')
   try {
-    if (isInValidRange(number) && isPositive(number)) {
-      return capitalizeFirstLetter(numberToWords(number));
-    }
+    if (input) outputBox.innerText = sayNumber(parseInt(input));
   } catch (err) {
-    console.error(err);
+    outputBox.innerText = err;
   }
 }
