@@ -33,7 +33,7 @@ strongly recommend you to take them into account as they can make your code bett
    Updating the loop conditional expression  `num != x` with `num != 0` will solve the puzzle :fire: :superhero_woman: :superhero:
    
 2. #### Syntax errors
-    - :red_circle: [REQUIRED] You forgot to close the function `is_palindrome` with using end keyword. Below you can see
+    - :red_circle: [REQUIRED] You forgot to close the function `is_palindrome` with an end keyword. Below you can see
       how a method basic structure looks like
 
     ```
