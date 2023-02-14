@@ -1,5 +1,7 @@
 # Projects
 
+![Peek 2023-02-14 13-16](https://user-images.githubusercontent.com/26736582/218722064-fed66c12-0061-4057-bfbc-475de9a916a0.gif)
+
 <h3><b>Sharingan</b></h3>
 
 # 📖 Sharingan <a name="about-project"></a>
