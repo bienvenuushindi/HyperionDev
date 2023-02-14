@@ -10,7 +10,6 @@ There are some issues that you still need to work on to complete this milestone 
 May I highlight the following:
 
 - Your project looks good:heavy_check_mark:
-- You implemented some requirements good :heavy_check_mark:
 - Kudos for using comments to make your code self-documenting :heavy_check_mark:
 - In general, you are performing well :heavy_check_mark:
 
