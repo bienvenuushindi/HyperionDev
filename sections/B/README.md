@@ -73,62 +73,7 @@ This project was built using.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-- Ruby installed
-- Postgresql installed
-- Git installed [ In case you want to clone this repo using your terminal]
-- Any IDE or text editor that supports Ruby
-
-### Setup
-
-Clone this repository to your desired folder:
-
-#### 1. Clone this repository or download the Zip folder:"
-
-```bash command
-$ git clone git@github.com:bienvenuushindi/sharingan.git
-```
-
-#### 2. Navigate to the location of the folder in your machine:
-
-```bash command
-you@your-Pc-name:~$ cd <folder>
-```
-
-#### 3. Press Enter to navigate to your local clone.
-
-#### 4. Install the gems and dependencies:
-
-```bash command
-bundle install
-npm install
-```
-
-#### 5. Create database and run the necessary migration files :
-
-```bash command
-$ bin/rails db:create
-$ rake db:migrate
-$ rake db:seed
-```
-
-#### 6 Finally you can run the server:
-
-```bash command
-rails s
-```
-
-#### Additionally, run this if you want to test the app:
-
-```bash command
-rspec spec
-```
-
+To get a local copy up and running, Please follow the steps in this [README.md](https://github.com/bienvenuushindi/sharingan/blob/main/README.md) file
 
 
 <!-- AUTHOR -->
