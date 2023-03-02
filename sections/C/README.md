@@ -1,4 +1,4 @@
-[![hyperdev](https://user-images.githubusercontent.com/26736582/218435811-1354ec43-c24b-40cc-95a2-c04de3ff5fcc.png)](https://hyperion-dev.vercel.app/)
+[![hyperdev](https://user-images.githubusercontent.com/26736582/218435811-1354ec43-c24b-40cc-95a2-c04de3ff5fcc.png)](https://saythenumber.vercel.app/)
 
 # Code Challenge: Say the Number!
 
@@ -25,7 +25,7 @@
 
 ## Live Demo
 
-[Click here](https://hyperion-dev.vercel.app/)
+[Click here](https://saythenumber.vercel.app/)
 
 ## Getting Started
 
